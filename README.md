@@ -2,6 +2,8 @@
 
 <img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/header.svg" width="100%" alt="ScorpioN"/>
 
+<img src="https://api.visitorbadge.io/api/VisitorHit?user=dnascorpionofficial&repo=dnascorpionofficial&label=PROFILE%20VIEWS&countColor=%23e63946&labelColor=%230d1117&style=for-the-badge" alt="Profile views"/>
+
 <img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/terminal.svg" width="640" alt="ScorpioN terminal"/>
 
 <img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/build.svg" width="600" alt="What I build"/>
@@ -15,8 +17,6 @@
 <img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/title-contact.svg" width="600" alt="Contact"/>
 
 <a href="https://t.me/dnascorpionofficial"><img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/btn-telegram.svg" width="360" alt="Message me on Telegram"/></a>
-
-<img src="https://api.visitorbadge.io/api/VisitorHit?user=dnascorpionofficial&repo=dnascorpionofficial&label=PROFILE%20VIEWS&countColor=%23e63946&labelColor=%230d1117&style=for-the-badge" alt="Profile views"/>
 
 <img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/footer.svg" width="100%" height="120" alt=""/>
 
