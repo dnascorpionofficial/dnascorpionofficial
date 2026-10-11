@@ -1,0 +1,36 @@
+name: generate-assets
+
+# Rebuilds every profile SVG from scripts/ (with scripts/config.py).
+# The snake is NOT built here - snake.yml owns it.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate SVGs
+        run: python3 scripts/generate.py
+
+      - name: Commit changed SVGs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate svgs"
+          file_pattern: "assets/*.svg"
