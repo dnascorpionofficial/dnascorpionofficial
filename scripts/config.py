@@ -4,9 +4,11 @@ ACCENT = "#e63946"
 
 # header (assets/header.svg)
 TAGLINES = [ # cycle every 3s under the name
-    "> Telegram bots & automation",
-    "> Android tools & KernelSU modules",
+    "> bots & automation",
     "> Python | Shell | C | Rust",
+    "> Android tools & SU modules",
+    "> HTML | JAVASCRIPT | CSS",
+    "> Beginner | Kotlin | Java",
 ]
 
 # terminal card (assets/terminal.svg)
