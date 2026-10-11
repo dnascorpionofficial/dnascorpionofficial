@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 424" width="600" height="424">
+<style>text{font-family:'Courier New',Courier,monospace}.h{font-size:28px;font-weight:700;fill:#fff}.a{font-size:23px;font-weight:700;fill:#e6edf3}.b{font-size:16px;fill:#8b949e}
+.cd{opacity:0;animation:in .7s ease-out both}@keyframes in{from{opacity:0;transform:translateX(-30px)}to{opacity:1}}</style>
+<text x="24" y="44" class="h">What I build</text><rect x="24" y="56" width="60" height="3" fill="#e63946"/>
+<g class="cd" style="animation-delay:0.0s" transform="translate(0,84)">
+<rect x="20" y="0" width="560" height="96" rx="14" fill="#10151c" stroke="#e63946" stroke-opacity=".4" stroke-width="1.5"></rect>
+<rect x="20" y="0" width="6" height="96" rx="3" fill="#e63946"/>
+<g transform="translate(78,48)"><g fill="none" stroke="#e63946" stroke-width="3" stroke-linecap="round"><rect x="-22" y="-16" width="44" height="34" rx="8"/><path d="M0,-16 V-26"/><circle cx="0" cy="-29" r="3" fill="#e63946"/><circle cx="-9" cy="-1" r="4" fill="#e63946"/><circle cx="9" cy="-1" r="4" fill="#e63946"/><path d="M-8,10 H8"/></g></g>
+<text x="130" y="38" class="a">Telegram bots</text><text x="130" y="62" class="b">Auto-posting, commands, AI features,</text><text x="130" y="82" class="b">admin panels and databases</text></g><g class="cd" style="animation-delay:0.25s" transform="translate(0,196)">
+<rect x="20" y="0" width="560" height="96" rx="14" fill="#10151c" stroke="#e63946" stroke-opacity=".4" stroke-width="1.5"></rect>
+<rect x="20" y="0" width="6" height="96" rx="3" fill="#e63946"/>
+<g transform="translate(78,48)"><g fill="none" stroke="#e63946" stroke-width="3" stroke-linecap="round"><rect x="-17" y="-28" width="34" height="56" rx="7"/><path d="M-6,-21 H6"/><circle cx="0" cy="20" r="2.5" fill="#e63946"/></g></g>
+<text x="130" y="38" class="a">Android tools</text><text x="130" y="62" class="b">Apps, keyboards, KernelSU modules</text><text x="130" y="82" class="b">and WebUIs</text></g><g class="cd" style="animation-delay:0.5s" transform="translate(0,308)">
+<rect x="20" y="0" width="560" height="96" rx="14" fill="#10151c" stroke="#e63946" stroke-opacity=".4" stroke-width="1.5"></rect>
+<rect x="20" y="0" width="6" height="96" rx="3" fill="#e63946"/>
+<g transform="translate(78,48)"><g fill="none" stroke="#e63946" stroke-width="3"><circle cx="0" cy="0" r="13"/><circle cx="0" cy="0" r="22" stroke-width="7" stroke-dasharray="7 9.6"/></g></g>
+<text x="130" y="38" class="a">Scripts &amp; automation</text><text x="130" y="62" class="b">Python, shell, C and Rust tooling</text><text x="130" y="82" class="b">built to run on their own</text></g></svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 664" width="600" height="664">
+<defs><filter id="gw" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>text{font-family:'Courier New',Courier,monospace}.h{font-size:28px;font-weight:700;fill:#fff}.gl{font-size:24px;font-weight:700;fill:#e6edf3}.nm{font-size:19px;font-weight:700;fill:#e6edf3}.lv{font-size:16px;font-weight:700}.k{font-size:15px;fill:#8b949e}
+.rg{animation:r 1.4s ease-out both}@keyframes r{from{stroke-dashoffset:263.9}}</style>
+<rect x="1" y="1" width="598" height="662" rx="16" fill="#0d1117" stroke="#e63946" stroke-opacity=".5" stroke-width="1.5"/>
+<text x="30" y="52" class="h">Languages &amp; skill level</text><rect x="30" y="64" width="60" height="3" fill="#e63946"/>
+<g>
+<circle cx="100" cy="150" r="42" fill="none" stroke="#21262d" stroke-width="9"/>
+<circle cx="100" cy="150" r="42" fill="none" stroke="#e63946" stroke-opacity=".22" stroke-width="15" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="0.0" transform="rotate(-90 100 150)" class="rg" style="animation-delay:0.00s"/>
+<circle cx="100" cy="150" r="42" fill="none" stroke="#e63946" stroke-width="9" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="0.0" transform="rotate(-90 100 150)" class="rg" style="animation-delay:0.00s"/>
+<text x="100" y="158" text-anchor="middle" class="gl">Py</text>
+<text x="100" y="222" text-anchor="middle" class="nm">Python</text>
+<text x="100" y="244" text-anchor="middle" class="lv" fill="#e63946">Pro</text></g><g>
+<circle cx="300" cy="150" r="42" fill="none" stroke="#21262d" stroke-width="9"/>
+<circle cx="300" cy="150" r="42" fill="none" stroke="#e63946" stroke-opacity=".22" stroke-width="15" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="0.0" transform="rotate(-90 300 150)" class="rg" style="animation-delay:0.12s"/>
+<circle cx="300" cy="150" r="42" fill="none" stroke="#e63946" stroke-width="9" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="0.0" transform="rotate(-90 300 150)" class="rg" style="animation-delay:0.12s"/>
+<text x="300" y="158" text-anchor="middle" class="gl">Sh</text>
+<text x="300" y="222" text-anchor="middle" class="nm">Shell / Bash</text>
+<text x="300" y="244" text-anchor="middle" class="lv" fill="#e63946">Pro</text></g><g>
+<circle cx="500" cy="150" r="42" fill="none" stroke="#21262d" stroke-width="9"/>
+<circle cx="500" cy="150" r="42" fill="none" stroke="#e63946" stroke-opacity=".22" stroke-width="15" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="0.0" transform="rotate(-90 500 150)" class="rg" style="animation-delay:0.24s"/>
+<circle cx="500" cy="150" r="42" fill="none" stroke="#e63946" stroke-width="9" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="0.0" transform="rotate(-90 500 150)" class="rg" style="animation-delay:0.24s"/>
+<text x="500" y="158" text-anchor="middle" class="gl">JS</text>
+<text x="500" y="222" text-anchor="middle" class="nm">JavaScript</text>
+<text x="500" y="244" text-anchor="middle" class="lv" fill="#e63946">Pro</text></g><g>
+<circle cx="100" cy="320" r="42" fill="none" stroke="#21262d" stroke-width="9"/>
+<circle cx="100" cy="320" r="42" fill="none" stroke="#e63946" stroke-opacity=".22" stroke-width="15" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="0.0" transform="rotate(-90 100 320)" class="rg" style="animation-delay:0.36s"/>
+<circle cx="100" cy="320" r="42" fill="none" stroke="#e63946" stroke-width="9" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="0.0" transform="rotate(-90 100 320)" class="rg" style="animation-delay:0.36s"/>
+<text x="100" y="328" text-anchor="middle" class="gl">&lt;/&gt;</text>
+<text x="100" y="392" text-anchor="middle" class="nm">HTML</text>
+<text x="100" y="414" text-anchor="middle" class="lv" fill="#e63946">Pro</text></g><g>
+<circle cx="300" cy="320" r="42" fill="none" stroke="#21262d" stroke-width="9"/>
+<circle cx="300" cy="320" r="42" fill="none" stroke="#e63946" stroke-opacity=".22" stroke-width="15" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="0.0" transform="rotate(-90 300 320)" class="rg" style="animation-delay:0.48s"/>
+<circle cx="300" cy="320" r="42" fill="none" stroke="#e63946" stroke-width="9" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="0.0" transform="rotate(-90 300 320)" class="rg" style="animation-delay:0.48s"/>
+<text x="300" y="328" text-anchor="middle" class="gl">CSS</text>
+<text x="300" y="392" text-anchor="middle" class="nm">CSS</text>
+<text x="300" y="414" text-anchor="middle" class="lv" fill="#e63946">Pro</text></g><g>
+<circle cx="500" cy="320" r="42" fill="none" stroke="#21262d" stroke-width="9"/>
+<circle cx="500" cy="320" r="42" fill="none" stroke="#f4a261" stroke-opacity=".22" stroke-width="15" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="89.7" transform="rotate(-90 500 320)" class="rg" style="animation-delay:0.60s"/>
+<circle cx="500" cy="320" r="42" fill="none" stroke="#f4a261" stroke-width="9" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="89.7" transform="rotate(-90 500 320)" class="rg" style="animation-delay:0.60s"/>
+<text x="500" y="328" text-anchor="middle" class="gl">C</text>
+<text x="500" y="392" text-anchor="middle" class="nm">C</text>
+<text x="500" y="414" text-anchor="middle" class="lv" fill="#f4a261">Intermediate</text></g><g>
+<circle cx="100" cy="490" r="42" fill="none" stroke="#21262d" stroke-width="9"/>
+<circle cx="100" cy="490" r="42" fill="none" stroke="#f4a261" stroke-opacity=".22" stroke-width="15" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="89.7" transform="rotate(-90 100 490)" class="rg" style="animation-delay:0.72s"/>
+<circle cx="100" cy="490" r="42" fill="none" stroke="#f4a261" stroke-width="9" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="89.7" transform="rotate(-90 100 490)" class="rg" style="animation-delay:0.72s"/>
+<text x="100" y="498" text-anchor="middle" class="gl">Rs</text>
+<text x="100" y="562" text-anchor="middle" class="nm">Rust</text>
+<text x="100" y="584" text-anchor="middle" class="lv" fill="#f4a261">Intermediate</text></g><g>
+<circle cx="300" cy="490" r="42" fill="none" stroke="#21262d" stroke-width="9"/>
+<circle cx="300" cy="490" r="42" fill="none" stroke="#58a6ff" stroke-opacity=".22" stroke-width="15" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="176.8" transform="rotate(-90 300 490)" class="rg" style="animation-delay:0.84s"/>
+<circle cx="300" cy="490" r="42" fill="none" stroke="#58a6ff" stroke-width="9" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="176.8" transform="rotate(-90 300 490)" class="rg" style="animation-delay:0.84s"/>
+<text x="300" y="498" text-anchor="middle" class="gl">Kt</text>
+<text x="300" y="562" text-anchor="middle" class="nm">Kotlin</text>
+<text x="300" y="584" text-anchor="middle" class="lv" fill="#58a6ff">Beginner</text></g><g>
+<circle cx="500" cy="490" r="42" fill="none" stroke="#21262d" stroke-width="9"/>
+<circle cx="500" cy="490" r="42" fill="none" stroke="#58a6ff" stroke-opacity=".22" stroke-width="15" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="176.8" transform="rotate(-90 500 490)" class="rg" style="animation-delay:0.96s"/>
+<circle cx="500" cy="490" r="42" fill="none" stroke="#58a6ff" stroke-width="9" stroke-linecap="round" stroke-dasharray="263.9" stroke-dashoffset="176.8" transform="rotate(-90 500 490)" class="rg" style="animation-delay:0.96s"/>
+<text x="500" y="498" text-anchor="middle" class="gl">Jv</text>
+<text x="500" y="562" text-anchor="middle" class="nm">Java</text>
+<text x="500" y="584" text-anchor="middle" class="lv" fill="#58a6ff">Beginner</text></g><g transform="translate(0,612)"><circle cx="150" cy="0" r="6" fill="#e63946"/><text x="162" y="5" class="k">Pro</text>
+<circle cx="250" cy="0" r="6" fill="#f4a261"/><text x="262" y="5" class="k">Intermediate</text><circle cx="410" cy="0" r="6" fill="#58a6ff"/><text x="422" y="5" class="k">Beginner</text>
+<text x="300" y="34" text-anchor="middle" class="k">Currently leveling up: C and Rust</text></g></svg>
