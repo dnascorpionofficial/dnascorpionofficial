@@ -13,7 +13,7 @@ jobs:
   snake:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Generate snake
         uses: Platane/snk@v3
@@ -23,17 +23,17 @@ jobs:
             assets/github-snake-dark.svg?palette=github-dark
 
       - name: Commit
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update snake"
           file_pattern: "assets/github-snake-dark.svg"
 
-      - name: Delete old runs (keep only this one)
+      - name: Delete old generate-snake runs (keep only this one)
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh api --paginate "repos/${{ github.repository }}/actions/runs" \
+          gh api --paginate "repos/${{ github.repository }}/actions/workflows/snake.yml/runs" \
             --jq '.workflow_runs[] | select(.id != ${{ github.run_id }}) | .id' |
           while read -r id; do
             gh api -X DELETE "repos/${{ github.repository }}/actions/runs/$id" || true
