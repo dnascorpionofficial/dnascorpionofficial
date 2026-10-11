@@ -56,4 +56,4 @@ SKILLS = [ # (badge, name, level) - 3 per row
 # small pieces
 SNAKE_TITLE = "Contribution graph" # snake.yml (Platane/snk)
 CONTACT_TITLE = "Contact"
-TELEGRAM_TEXT = "Tag in groups only"
+TELEGRAM_TEXT = "Ping Me in groups only"
