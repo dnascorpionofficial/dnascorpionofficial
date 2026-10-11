@@ -4,11 +4,10 @@ on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch: {}
-  push:
-    branches: [main]
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   snake:
@@ -28,3 +27,14 @@ jobs:
         with:
           commit_message: "chore: update snake"
           file_pattern: "assets/github-snake-dark.svg"
+
+      - name: Delete old runs (keep only this one)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api --paginate "repos/${{ github.repository }}/actions/runs" \
+            --jq '.workflow_runs[] | select(.id != ${{ github.run_id }}) | .id' |
+          while read -r id; do
+            gh api -X DELETE "repos/${{ github.repository }}/actions/runs/$id" || true
+          done
