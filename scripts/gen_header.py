@@ -22,9 +22,9 @@ TEMPLATE = r"""<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w
 text{font-family:'Courier New',Courier,monospace}
 .pr{font-size:20px;fill:#8b949e}
 .t{font-size:100px;font-weight:700;letter-spacing:4px}
-.s{font-size:32px;fill:@@ACCENT@@;opacity:0;animation:s 9s infinite both}
-.d2{animation-delay:3s}.d3{animation-delay:6s}
-@keyframes s{0%{opacity:0}6%{opacity:1}28%{opacity:1}34%{opacity:0}100%{opacity:0}}
+.s{font-size:32px;fill:@@ACCENT@@;opacity:0;animation:s @@CYCLE@@s infinite both}
+@@DELAYS@@
+@keyframes s{@@KEYFRAMES@@}
 .p{opacity:0;animation:p 6s linear infinite}
 @keyframes p{0%{transform:translateY(0);opacity:0}20%{opacity:.8}100%{transform:translateY(-110px);opacity:0}}
 .g1{animation:g 4s infinite;fill:#00e5ff;opacity:.0}
@@ -37,9 +37,7 @@ text{font-family:'Courier New',Courier,monospace}
 <text x="60" y="78" class="pr">@@PROMPT@@</text>
 <text x="60" y="172" class="t" fill="#ffffff">@@NAME@@</text>
 <rect x="60" y="192" width="560" height="4" fill="url(#ln)"/>
-<text x="60" y="246" class="s">@@T1@@</text>
-<text x="60" y="246" class="s d2">@@T2@@</text>
-<text x="60" y="246" class="s d3">@@T3@@</text>
+@@TAGLINES@@
 """
 
 def build():
@@ -47,8 +45,19 @@ def build():
     svg = svg.replace("@@ACCENT@@", C.ACCENT)
     svg = svg.replace("@@PROMPT@@", escape(f"root@{C.USER}:~$ ./whoami"))
     svg = svg.replace("@@NAME@@", escape(C.NAME))
-    for i, line in enumerate(C.TAGLINES, 1):
-        svg = svg.replace(f"@@T{i}@@", escape(line))
+    # any number of taglines, each shown for SLOT seconds in turn
+    n = len(C.TAGLINES)
+    slot = 3
+    pct = 100 / n
+    svg = svg.replace("@@CYCLE@@", str(slot * n))
+    svg = svg.replace("@@DELAYS@@", "".join(f".d{i}{{animation-delay:{i * slot}s}}" for i in range(1, n)))
+    svg = svg.replace("@@KEYFRAMES@@",
+        f"0%{{opacity:0}}{pct*.18:.2f}%{{opacity:1}}{pct*.84:.2f}%{{opacity:1}}{pct:.2f}%{{opacity:0}}100%{{opacity:0}}")
+    lines = []
+    for i, line in enumerate(C.TAGLINES):
+        cls = "s" if i == 0 else f"s d{i}"
+        lines.append(f'<text x="60" y="246" class="{cls}">{escape(line)}</text>')
+    svg = svg.replace("@@TAGLINES@@", "\n".join(lines))
     return svg + scorpion(fill=C.ACCENT) + "\n</svg>\n"
 
 
