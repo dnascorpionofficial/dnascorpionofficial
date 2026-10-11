@@ -16,7 +16,7 @@
 
 <a href="https://t.me/dnascorpionofficial"><img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/btn-telegram.svg" width="360" alt="Message me on Telegram"/></a>
 
-<img src="https://komarev.com/ghpvc/?username=dnascorpionofficial&label=PROFILE+VIEWS&color=e63946&labelColor=0d1117&style=for-the-badge" alt="Profile views"/>
+<img src="https://api.visitorbadge.io/api/VisitorHit?user=dnascorpionofficial&repo=dnascorpionofficial&label=PROFILE%20VIEWS&countColor=%23e63946&labelColor=%230d1117&style=for-the-badge" alt="Profile views"/>
 
 <img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/footer.svg" width="100%" height="120" alt=""/>
 
