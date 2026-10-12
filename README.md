@@ -14,6 +14,8 @@
 
 <img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/github-snake-dark.svg" width="100%" alt="Contribution snake"/>
 
+<img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/private.svg" width="600" alt="Why no public repos"/>
+
 <img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/title-contact.svg" width="600" alt="Contact"/>
 
 <a href="https://t.me/dnascorpionofficial"><img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/btn-telegram.svg" width="360" alt="Message me on Telegram"/></a>

@@ -22,6 +22,19 @@ jobs:
           outputs: |
             assets/github-snake-dark.svg?palette=github-dark
 
+      - name: Keep snake inside the graph
+        run: |
+          python3 - <<'PY'
+          import re, pathlib
+          p = pathlib.Path("assets/github-snake-dark.svg")
+          s = p.read_text()
+          m = re.match(r'<svg viewBox="-16 -32 (\d+) (\d+)" width="\d+" height="\d+"', s)
+          if m:
+              w, h = int(m.group(1)) - 32, int(m.group(2)) - 80
+              s = s.replace(m.group(0), f'<svg viewBox="0 0 {w} {h}" width="{w}" height="{h}"', 1)
+              p.write_text(s)
+          PY
+
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v7
         with:

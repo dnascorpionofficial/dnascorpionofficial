@@ -17,6 +17,7 @@ FILES = {
     "build.svg": panels.build,
     "skills.svg": panels.skills,
     "title-snake.svg": panels.title_snake,
+    "private.svg": panels.private,
     "title-contact.svg": panels.title_contact,
     "btn-telegram.svg": panels.btn_telegram,
     "footer.svg": panels.footer,

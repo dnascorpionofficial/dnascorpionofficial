@@ -130,6 +130,28 @@ def skills():
         f'<text x="300" y="34" text-anchor="middle" class="k">{escape(C.SKILLS_NOTE)}</text></g></svg>'
     )
 
+# private-work note
+def private():
+    A = C.ACCENT
+    lock = (
+        f'<g fill="none" stroke="{A}" stroke-width="3" stroke-linecap="round">'
+        '<rect x="-16" y="-4" width="32" height="25" rx="5"/>'
+        '<path d="M-9,-4 V-11 a9,9 0 0 1 18,0 V-4"/>'
+        f'<circle cx="0" cy="8" r="3" fill="{A}"/></g>'
+    )
+    lines = "".join(
+        f'<text x="130" y="{70 + 22 * i}" class="b">{escape(t)}</text>' for i, t in enumerate(C.PRIVATE_LINES)
+    )
+    height = 70 + 22 * (len(C.PRIVATE_LINES) - 1) + 28
+    return (
+        f'<svg {NS} viewBox="0 0 600 {height}" width="600" height="{height}">\n'
+        f"<style>{FONT}.a{{font-size:23px;font-weight:700;fill:#e6edf3}}.b{{font-size:16px;fill:#8b949e}}</style>\n"
+        f'<rect x="20" y="4" width="560" height="{height - 8}" rx="14" fill="#10151c" stroke="{A}" stroke-opacity=".4" stroke-width="1.5"/>\n'
+        f'<rect x="20" y="4" width="6" height="{height - 8}" rx="3" fill="{A}"/>\n'
+        f'<g transform="translate(78,{height // 2})">{lock}</g>\n'
+        f'<text x="130" y="42" class="a">{escape(C.PRIVATE_TITLE)}</text>{lines}</svg>'
+    )
+
 # small ones
 def _title(text):
     return (
