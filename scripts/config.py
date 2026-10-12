@@ -62,6 +62,6 @@ PRIVATE_TITLE = "Why no public repos?"
 PRIVATE_LINES = [ # keep each line under ~40 characters
     "I do paid client work, so almost every",
     "project I build is kept private.",
-    "Graph above or scroll down for my activity count.",
+    "Graph above / scroll down - contribution count.",
 ]
 TELEGRAM_TEXT = "Ping Me in groups only"
