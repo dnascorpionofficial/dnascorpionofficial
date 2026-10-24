@@ -58,7 +58,7 @@ SNAKE_TITLE = "Contribution graph" # snake.yml (Platane/snk)
 CONTACT_TITLE = "Contact"
 
 # private-work note (assets/private.svg), shown under the contribution graph
-PRIVATE_TITLE = "Why no public repos?"
+PRIVATE_TITLE = "Why few public repos?"
 PRIVATE_LINES = [ # keep each line under ~40 characters
     "I do paid client work, so almost every",
     "project I build is kept private.",
