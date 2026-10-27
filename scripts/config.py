@@ -49,8 +49,8 @@ SKILLS = [ # (badge, name, level) - 3 per row
     ("CSS", "CSS", "Pro"),
     ("C", "C", "Intermediate"),
     ("Rs", "Rust", "Intermediate"),
-    ("Kt", "Kotlin", "Beginner"),
-    ("Jv", "Java", "Beginner"),
+    ("Kt", "Kotlin", "Intermediate"),
+    ("Jv", "Java", "Intermediate"),
 ]
 
 # small pieces
