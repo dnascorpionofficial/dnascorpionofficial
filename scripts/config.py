@@ -8,7 +8,7 @@ TAGLINES = [ # cycle every 3s under the name
     "> Python | Shell | C | Rust",
     "> Android tools & SU modules",
     "> HTML | JAVASCRIPT | CSS",
-    "> Beginner | Kotlin | Java",
+    "> Kotlin | Java",
 ]
 
 # terminal card (assets/terminal.svg)
