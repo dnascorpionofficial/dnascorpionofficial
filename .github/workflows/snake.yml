@@ -50,4 +50,4 @@ jobs:
             --jq '.workflow_runs[] | select(.id != ${{ github.run_id }}) | .id' |
           while read -r id; do
             gh api -X DELETE "repos/${{ github.repository }}/actions/runs/$id" || true
-          done
+          done 
