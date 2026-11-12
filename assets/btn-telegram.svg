@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 76" width="440" height="76"><style>text{font-family:'DejaVu Sans Mono','Liberation Mono',Menlo,Consolas,'Noto Sans Mono',monospace}</style>
-<defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c8cc6"/><stop offset="1" stop-color="#085b80"/></linearGradient></defs>
-<path d="M24,4 H436 V52 L416,72 H4 V24 Z" fill="none" stroke="#0ea5e9" stroke-width="2"><animate attributeName="stroke-opacity" values=".9;.15;.9" dur="2.4s" repeatCount="indefinite"/></path>
+<defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cf3650"/><stop offset="1" stop-color="#862334"/></linearGradient></defs>
+<path d="M24,4 H436 V52 L416,72 H4 V24 Z" fill="none" stroke="#f43f5e" stroke-width="2"><animate attributeName="stroke-opacity" values=".9;.15;.9" dur="2.4s" repeatCount="indefinite"/></path>
 <path d="M25,9 H431 V51 L415,67 H9 V25 Z" fill="url(#tg)"/>
-<g transform="translate(48,38)"><path d="M-18,-2 L18,-17 L11,17 L1,9 L-6,15 L-6,5 Z" fill="#fff"/><path d="M-6,5 L11,-9" stroke="#0c8cc6" stroke-width="2" fill="none"/></g>
+<g transform="translate(48,38)"><path d="M-18,-2 L18,-17 L11,17 L1,9 L-6,15 L-6,5 Z" fill="#fff"/><path d="M-6,5 L11,-9" stroke="#cf3650" stroke-width="2" fill="none"/></g>
 <text x="88" y="46" style="font-size:24px;font-weight:700" fill="#fff">Ping Me in groups only</text></svg>
