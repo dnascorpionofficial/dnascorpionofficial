@@ -1,11 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/header.svg" width="100%" alt="ScorpioN"/>
-
-<br/>
-<br/>
 <i>“The system obeys whoever understands it”</i><br/>
 <b>dnascorpionofficial</b>
+<br/>
+<br/>
+
+<img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/header.svg" width="100%" alt="ScorpioN"/>
+
 <br/>
 <br/>
 
