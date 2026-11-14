@@ -5,12 +5,11 @@
 <br/>
 <br/>
 
-<img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/header.svg" width="100%" alt="ScorpioN"/>
-
-<br/>
-<br/>
-
 <img src="https://api.visitorbadge.io/api/VisitorHit?user=dnascorpionofficial&repo=dnascorpionofficial&label=PROFILE%20VIEWS&countColor=%2310b981&labelColor=%2310b981&style=for-the-badge" alt="Profile views"/>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/dnascorpionofficial/dnascorpionofficial/main/assets/header.svg" width="100%" alt="ScorpioN"/>
 
 <br/>
 
