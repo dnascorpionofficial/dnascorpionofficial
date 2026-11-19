@@ -4,7 +4,7 @@
 <b>dnascorpionofficial</b>
 <br/>
 
-<img src="https://api.visitorbadge.io/api/VisitorHit?user=dnascorpionofficial&repo=dnascorpionofficial&label=PROFILE%20VIEWS&countColor=%23c084fc&labelColor=%23c084fc&style=for-the-badge" alt="Profile views"/>
+<img src="https://api.visitorbadge.io/api/VisitorHit?user=dnascorpionofficial&repo=dnascorpionofficial&label=PROFILE%20VIEWS&countColor=%23fde047&labelColor=%23fde047&style=for-the-badge" alt="Profile views"/>
 
 <br/>
 
